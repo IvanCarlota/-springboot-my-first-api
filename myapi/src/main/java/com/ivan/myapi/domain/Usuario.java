@@ -11,6 +11,7 @@ import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
+
 @Entity
 public class Usuario implements Serializable {
 
