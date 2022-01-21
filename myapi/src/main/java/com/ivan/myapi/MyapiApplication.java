@@ -26,8 +26,9 @@ public class MyapiApplication implements CommandLineRunner{
 
 		Usuario u1 = new Usuario(null, "Ivan Carlota", "ivan", "1234");
 		Usuario u2 = new Usuario(null, "Gordon Fee", "fee", "1234");
+		Usuario u3 = new Usuario(null, "Douglas Stuart", "stuart", "1234");
 		
-		usuarioRepository.saveAll(Arrays.asList(u1, u2));
+		usuarioRepository.saveAll(Arrays.asList(u1, u2, u3));
 	}
 
 }
