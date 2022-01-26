@@ -34,4 +34,9 @@ public class UsuarioService {
 		return usuarioRepository.save(newobj);
 	}
 
+	public Usuario create(Usuario obj) {
+		obj.setId(null);
+		return usuarioRepository.save(obj);
+	}
+
 }
